@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Projects</h1>
-      <div className="col-9">
+      <div className="">
         <div className="card bg-dark text-white">
           <img className="card-img" src="public/Gif-initions.png" alt="Code Refractor"></img>
           <a href="https://leoguerr.github.io/Gif-initions/" target="_blank" rel="noreferrer">
