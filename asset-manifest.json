@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/portfoliov3/static/js/main.b9faed8b.js",
+    "static/media/IMG_7721.jpg": "/portfoliov3/static/media/IMG_7721.311c4ebda0876611758c.jpg",
+    "static/media/Resume.pdf": "/portfoliov3/static/media/Resume.c43452dd6873d3f3f427.pdf",
+    "index.html": "/portfoliov3/index.html",
+    "main.b9faed8b.js.map": "/portfoliov3/static/js/main.b9faed8b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b9faed8b.js"
+  ]
+}
