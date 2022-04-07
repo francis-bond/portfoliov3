@@ -1,14 +1,16 @@
 import React from 'react'
-import headshot from '../assets/IMG_7721.jpg'
+import headshot from '../assets/IMG_2299-2.jpg'
+import './Aboutme.css'
 
 export default function Aboutme() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="mx-4">
+      <h1 className="mt-2">About Me</h1>
       <div>
         <img src={headshot} alt="Headshot of Francis Bond" height="200px"
-          class="rounded float-right"></img>
+          className="rounded mt-1"></img>
       </div>
+      <div className="col-9 mt-4 mx-5">
       <p>
         Welcome to my Portfolio! My name is Francis Bond and I have recently become a web developer.
         Full stack web developer with a Certificate in Full Stack Web Development from the
@@ -25,6 +27,7 @@ export default function Aboutme() {
         information through annotations that will be used in a meeting of scholars. I’m excited to
         leverage my skills and knowledge as part of a team to build and improve applications.
       </p>
+      </div>
     </div>
   );
 }
