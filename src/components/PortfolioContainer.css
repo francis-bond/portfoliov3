@@ -10,7 +10,8 @@
 
 .jumbotron {
     margin-bottom: 0px;
-    background-color: darkblue;
+    background: rgb(9,9,121);
+    background: linear-gradient(146deg, rgba(9,9,121,1) 0%, rgba(8,29,134,1) 3%, rgba(0,212,255,1) 100%);
     color: lightblue;
 }
 
