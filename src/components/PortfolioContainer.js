@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Contact from './pages/Contact';
 import Aboutme from './pages/Aboutme';
-import Portfolio from './pages/Porfolio';
+import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Footer from './Footer';
 import './PortfolioContainer.css'
@@ -34,7 +34,7 @@ export default function PortfolioContainer() {
         <div className="jumbotron jumbotron-fluid">
             <div className="container row justify-content-between">
                 <div>
-                    <h1 className="display-4 ml-4">Francis Bond</h1>
+                    <h1 className="display-4 ml-4 name">Francis Bond</h1>
                 </div>
             </div>
         </div>

@@ -1,8 +1,19 @@
 .page-container {
     position: relative;
     min-height: 100vh;
+    /* background: linear-gradient(0deg, darkblue 3%, lightblue 100%) */
 }
 
 .content-wrap {
     padding-bottom: 5rem;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: darkblue;
+    color: lightblue;
+}
+
+.name {
+    padding-left: 1rem;
 }

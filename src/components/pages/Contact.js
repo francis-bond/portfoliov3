@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Contact() {
 
 
   return (
     <div className="mx-4">
-      <h1 className="mt-1">Contact me</h1>
+      <h1 className="mt-2">Contact me</h1>
       <form className="row justify-content-center">
         <div className="form-group col-10">
           <label for="formGroupExampleInput">Name:</label>
@@ -20,7 +20,12 @@ export default function Contact() {
           <label for="exampleFormControlTextarea1">Message:</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
+        <div className="form-group col-10">
+        <button class="btn btn-primary" type="submit" disabled>Send</button>
+        </div>
       </form>
+      <h4 className="mt-3 ml-5">Email: francisbond1996@gmail.com</h4>
+      <h4 className="mt-3 ml-5">LinkedIn: <a href="https://www.linkedin.com/in/francis-bond-839952164/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/francis-bond-839952164/</a></h4>
     </div>
   );
 }
