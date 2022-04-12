@@ -1,6 +1,6 @@
 .img {
     position :relative;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .imgImage {
@@ -51,4 +51,14 @@
 
 .imgShadow {
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.8);
+}
+
+.col-12{
+    margin-bottom: 2rem
+}
+
+.github {
+    height: 6em;
+    width: 6em;
+    margin-top: 1em;
 }
